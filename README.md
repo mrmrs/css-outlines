@@ -68,7 +68,7 @@ or download the css on github and include in your project.
 .oo-5 {         outline-offset: 2rem; }
 .oo-i {         outline-offset: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .oo--blk-ns {      outline-color: $near-black; }
   .oo--dk-gry-ns {   outline-color: $dark-gray; }
   .oo--md-gry-ns {   outline-color: $mid-gray; }
@@ -89,7 +89,7 @@ or download the css on github and include in your project.
   .os-outset-ns {    outline-style: outset; }
   .os-inherit-ns {   outline-style: inherit; }
   .ow-thin-ns {      outline-width: thin; }
-  .ow-med-ns {       outline-width: medium; }
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ow-thick-ns {     outline-width: thick; }
   .ow-1-ns {         outline-width: 1px; }
   .ow-2-ns {         outline-width: 2px; }
@@ -152,7 +152,7 @@ or download the css on github and include in your project.
   .oo-i-m {         outline-offset: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .oo--blk-l {      outline-color: $near-black; }
   .oo--dk-gry-l {   outline-color: $dark-gray; }
   .oo--md-gry-l {   outline-color: $mid-gray; }
