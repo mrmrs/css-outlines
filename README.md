@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-outlines)
 ## File Size
 
 6.9K outlines.css
-6.9K outlines.scss
+6.9K outlines.scss 
+1minified and gzipped
 
 ## The Code
 ```
