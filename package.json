@@ -1,5 +1,6 @@
 {
   "name": "css-outlines",
+  "style": "outlines.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-outlines",
   "description": "Css module of single purpose classes for outlines",
