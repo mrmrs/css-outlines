@@ -52,45 +52,45 @@
 .oo-i {         outline-offset: inherit; }
 
 @media screen and (min-width: 48em) {
-  .oo--blk-ns {      outline-color: $near-black; }
-  .oo--dk-gry-ns {   outline-color: $dark-gray; }
-  .oo--md-gry-ns {   outline-color: $mid-gray; }
-  .oo--gray-ns {     outline-color: $gray; }
-  .oo--silver -ns {  outline-color: $silver; }
-  .oo--lt-slvr-ns {  outline-color: $light-silver; }
-  .oo--lt-gry-ns {   outline-color: $light-gray; }
-  .oo--near-wht-ns { outline-color: $near-white; }
-  .oo--wht-ns {      outline-color: $white; }
-  .os-none-ns {      outline-style: none; }
-  .os-dots-ns {      outline-style: dotted; }
-  .os-dash-ns {      outline-style: dashed; }
-  .os-solid-ns {     outline-style: solid; }
-  .os-double-ns {    outline-style: double; }
-  .os-groove-ns {    outline-style: groove; }
-  .os-ridge-ns {     outline-style: ridge; }
-  .os-inset-ns {     outline-style: inset; }
-  .os-outset-ns {    outline-style: outset; }
-  .os-inherit-ns {   outline-style: inherit; }
-  .ow-thin-ns {      outline-width: thin; }
-  .ow-med-ns {       outline-width: medium; }
-  .ow-thick-ns {     outline-width: thick; }
-  .ow-1-ns {         outline-width: 1px; }
-  .ow-2-ns {         outline-width: 2px; }
-  .ow-3-ns {         outline-width: 3px; }
-  .ow-4-ns {         outline-width: 4px; }
-  .ow-5-ns {         outline-width: 5px; }
-  .ow-6-ns {         outline-width: 6px; }
-  .ow-7-ns {         outline-width: 7px; }
-  .ow-8-ns {         outline-width: 8px; }
-  .ow-9-ns {         outline-width: 9px; }
-  .ow-10-ns {        outline-width: 10px; }
-  .ow-i-ns {         outline-width: inherit; }
-  .oo-1-ns {         outline-offset: 1px; }
-  .oo-2-ns {         outline-offset: .25rem; }
-  .oo-3-ns {         outline-offset: .5rem; }
-  .oo-4-ns {         outline-offset: 1rem; }
-  .oo-5-ns {         outline-offset: 2rem; }
-  .oo-i-ns {         outline-offset: inherit; }
+  .oo--blk-s {      outline-color: $near-black; }
+  .oo--dk-gry-s {   outline-color: $dark-gray; }
+  .oo--md-gry-s {   outline-color: $mid-gray; }
+  .oo--gray-s {     outline-color: $gray; }
+  .oo--silver -s {  outline-color: $silver; }
+  .oo--lt-slvr-s {  outline-color: $light-silver; }
+  .oo--lt-gry-s {   outline-color: $light-gray; }
+  .oo--near-wht-s { outline-color: $near-white; }
+  .oo--wht-s {      outline-color: $white; }
+  .os-none-s {      outline-style: none; }
+  .os-dots-s {      outline-style: dotted; }
+  .os-dash-s {      outline-style: dashed; }
+  .os-solid-s {     outline-style: solid; }
+  .os-double-s {    outline-style: double; }
+  .os-groove-s {    outline-style: groove; }
+  .os-ridge-s {     outline-style: ridge; }
+  .os-inset-s {     outline-style: inset; }
+  .os-outset-s {    outline-style: outset; }
+  .os-inherit-s {   outline-style: inherit; }
+  .ow-thin-s {      outline-width: thin; }
+  .ow-med-s {       outline-width: medium; }
+  .ow-thick-s {     outline-width: thick; }
+  .ow-1-s {         outline-width: 1px; }
+  .ow-2-s {         outline-width: 2px; }
+  .ow-3-s {         outline-width: 3px; }
+  .ow-4-s {         outline-width: 4px; }
+  .ow-5-s {         outline-width: 5px; }
+  .ow-6-s {         outline-width: 6px; }
+  .ow-7-s {         outline-width: 7px; }
+  .ow-8-s {         outline-width: 8px; }
+  .ow-9-s {         outline-width: 9px; }
+  .ow-10-s {        outline-width: 10px; }
+  .ow-i-s {         outline-width: inherit; }
+  .oo-1-s {         outline-offset: 1px; }
+  .oo-2-s {         outline-offset: .25rem; }
+  .oo-3-s {         outline-offset: .5rem; }
+  .oo-4-s {         outline-offset: 1rem; }
+  .oo-5-s {         outline-offset: 2rem; }
+  .oo-i-s {         outline-offset: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
