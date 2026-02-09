@@ -51,7 +51,7 @@
 .oo-5 {         outline-offset: 2rem; }
 .oo-i {         outline-offset: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .oo--blk-s {      outline-color: $near-black; }
   .oo--dk-gry-s {   outline-color: $dark-gray; }
   .oo--md-gry-s {   outline-color: $mid-gray; }
@@ -93,7 +93,7 @@
   .oo-i-s {         outline-offset: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .oo--blk-m {      outline-color: $near-black; }
   .oo--dk-gry-m {   outline-color: $dark-gray; }
   .oo--md-gry-m {   outline-color: $mid-gray; }
@@ -135,7 +135,7 @@
   .oo-i-m {         outline-offset: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .oo--blk-l {      outline-color: $near-black; }
   .oo--dk-gry-l {   outline-color: $dark-gray; }
   .oo--md-gry-l {   outline-color: $mid-gray; }
