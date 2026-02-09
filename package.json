@@ -1,38 +1,44 @@
 {
   "name": "css-outlines",
-  "style": "outlines.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-outlines",
-  "description": "Css module of single purpose classes for outlines",
+  "version": "2.0.0",
+  "description": "Functional CSS for outlines",
+  "style": "dist/outlines.css",
+  "main": "dist/outlines.css",
+  "exports": {
+    ".": "./dist/outlines.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "outlines"
+    "outlines",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-outlines": {
+  "homepage": "https://github.com/mrmrs/css-outlines",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-outlines.git"
+    "url": "https://github.com/mrmrs/css-outlines.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-outlines/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-outlines/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
