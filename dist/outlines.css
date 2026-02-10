@@ -1,37 +1,49 @@
+:root {
+  --near-black: #111;
+  --dark-gray: #333;
+  --mid-gray: #555;
+  --gray: #777;
+  --silver: #999;
+  --light-silver: #aaa;
+  --light-gray: #ccc;
+  --near-white: #f4f4f4;
+  --white: #fff;
+}
+
 .oo--blk {
-  outline-color: $near-black;
+  outline-color: var(--near-black);
 }
 
 .oo--dk-gry {
-  outline-color: $dark-gray;
+  outline-color: var(--dark-gray);
 }
 
 .oo--md-gry {
-  outline-color: $mid-gray;
+  outline-color: var(--mid-gray);
 }
 
 .oo--gray {
-  outline-color: $gray;
+  outline-color: var(--gray);
 }
 
 .oo--silver {
-  outline-color: $silver;
+  outline-color: var(--silver);
 }
 
 .oo--lt-slvr {
-  outline-color: $light-silver;
+  outline-color: var(--light-silver);
 }
 
 .oo--lt-gry {
-  outline-color: $light-gray;
+  outline-color: var(--light-gray);
 }
 
 .oo--near-wht {
-  outline-color: $near-white;
+  outline-color: var(--near-white);
 }
 
 .oo--wht {
-  outline-color: $white;
+  outline-color: var(--white);
 }
 
 .os-none {
@@ -84,6 +96,10 @@
 
 .ow-thick {
   outline-width: thick;
+}
+
+.ow-1 {
+  outline-width: 1px;
 }
 
 .ow-2 {
@@ -152,39 +168,39 @@
 
 @media screen and (width >= 32em) {
   .oo--blk-s {
-    outline-color: $near-black;
+    outline-color: var(--near-black);
   }
 
   .oo--dk-gry-s {
-    outline-color: $dark-gray;
+    outline-color: var(--dark-gray);
   }
 
   .oo--md-gry-s {
-    outline-color: $mid-gray;
+    outline-color: var(--mid-gray);
   }
 
   .oo--gray-s {
-    outline-color: $gray;
+    outline-color: var(--gray);
   }
 
-  .oo--silver -s {
-    outline-color: $silver;
+  .oo--silver-s {
+    outline-color: var(--silver);
   }
 
   .oo--lt-slvr-s {
-    outline-color: $light-silver;
+    outline-color: var(--light-silver);
   }
 
   .oo--lt-gry-s {
-    outline-color: $light-gray;
+    outline-color: var(--light-gray);
   }
 
   .oo--near-wht-s {
-    outline-color: $near-white;
+    outline-color: var(--near-white);
   }
 
   .oo--wht-s {
-    outline-color: $white;
+    outline-color: var(--white);
   }
 
   .os-none-s {
@@ -310,39 +326,39 @@
 
 @media screen and (width >= 48em) {
   .oo--blk-m {
-    outline-color: $near-black;
+    outline-color: var(--near-black);
   }
 
   .oo--dk-gry-m {
-    outline-color: $dark-gray;
+    outline-color: var(--dark-gray);
   }
 
   .oo--md-gry-m {
-    outline-color: $mid-gray;
+    outline-color: var(--mid-gray);
   }
 
   .oo--gray-m {
-    outline-color: $gray;
+    outline-color: var(--gray);
   }
 
-  .oo--silver -m {
-    outline-color: $silver;
+  .oo--silver-m {
+    outline-color: var(--silver);
   }
 
   .oo--lt-slvr-m {
-    outline-color: $light-silver;
+    outline-color: var(--light-silver);
   }
 
   .oo--lt-gry-m {
-    outline-color: $light-gray;
+    outline-color: var(--light-gray);
   }
 
   .oo--near-wht-m {
-    outline-color: $near-white;
+    outline-color: var(--near-white);
   }
 
   .oo--wht-m {
-    outline-color: $white;
+    outline-color: var(--white);
   }
 
   .os-none-m {
@@ -468,39 +484,39 @@
 
 @media screen and (width >= 96em) {
   .oo--blk-l {
-    outline-color: $near-black;
+    outline-color: var(--near-black);
   }
 
   .oo--dk-gry-l {
-    outline-color: $dark-gray;
+    outline-color: var(--dark-gray);
   }
 
   .oo--md-gry-l {
-    outline-color: $mid-gray;
+    outline-color: var(--mid-gray);
   }
 
   .oo--gray-l {
-    outline-color: $gray;
+    outline-color: var(--gray);
   }
 
-  .oo--silver -l {
-    outline-color: $silver;
+  .oo--silver-l {
+    outline-color: var(--silver);
   }
 
   .oo--lt-slvr-l {
-    outline-color: $light-silver;
+    outline-color: var(--light-silver);
   }
 
   .oo--lt-gry-l {
-    outline-color: $light-gray;
+    outline-color: var(--light-gray);
   }
 
   .oo--near-wht-l {
-    outline-color: $near-white;
+    outline-color: var(--near-white);
   }
 
   .oo--wht-l {
-    outline-color: $white;
+    outline-color: var(--white);
   }
 
   .os-none-l {
